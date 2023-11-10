@@ -3,6 +3,7 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -43,7 +44,7 @@ nav{
     height: auto;
     display: flex;
     gap: 2rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     align-items: center;
 }
 
@@ -58,9 +59,19 @@ nav>button{
     color: #f1f2f7;
     background: linear-gradient(to right, #7e44d5, #0b7bd5);
     border: none;
-    width: 6rem;
-    height: 2.5rem;
+    width: 8rem;
+    height: 3rem;
     border-radius: 3px;
     cursor: pointer;
-    font-size: 0.9rem;
+    font-size: 1rem;
+}
+
+.product_page{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.information{
+    width: 50%;
 }
